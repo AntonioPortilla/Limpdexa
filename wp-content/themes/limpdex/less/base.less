@@ -1,0 +1,81 @@
+@import "font-awesome/less/font-awesome.less";
+body {
+	background-color: #fff;
+	font-family: "Quicksand";
+	a {
+		color: @color_black;
+		transition: .2s;
+		&:hover {
+			color: @color_blue;
+		}
+	}
+	aside {
+		border: 2px solid #eeeeee;
+		padding: 10px !important;
+	}
+	.modal-general {
+		.frm-shop {
+			padding: 15px 35px 5px 35px;
+			color: #000;
+			input, textarea {
+				border: 0;
+				box-shadow: none;
+				background-color: rgb(214,214,214);
+				border-radius: unset;
+			}
+			.col-xs-6, .col-xs-12 {
+				padding: 0;
+			}
+			.col-xs-6.right input {
+				background-color: rgb(196,196,196);
+			}
+			::-webkit-input-placeholder { /* Edge */
+				color: #000;
+			}
+
+			:-ms-input-placeholder { /* Internet Explorer 10-11 */
+				color: #000;
+			}
+
+			::placeholder {
+				color: #000;
+			}
+			h2 {
+				color: #8e8782;
+				font-weight: bold;
+				font-size: 16px;
+			}
+		}
+		.modal-body {
+			background-color: rgb(234, 234, 234);
+		}
+		.modal-header {
+			background-color: @color_blue;
+			padding: 6px 10px 13px 0;
+			button.close {
+				color: @color_white;
+				font-size: 40px;
+				opacity: 1;
+				font-weight: 100;
+			}
+		}
+		.modal-footer {
+			padding: 0;
+			background-color: rgb(234, 234, 234);
+			button {
+				float: left;
+				color: @color_blue;
+				border: 0;
+				padding: 0;
+				outline: none;
+				font-weight: bold;
+				background-color: transparent;
+				font-size: 20px;
+			}
+			img {
+				margin-top: 10px;
+				max-width: 120px;
+			}
+		}
+	}
+}
