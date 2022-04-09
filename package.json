@@ -34,6 +34,6 @@
   "dependencies": {
     "bootstrap-less": "^3.3.8",
     "eonasdan-bootstrap-datetimepicker": "4.17.47",
-    "moment": "2.21.0"
+    "moment": "2.29.2"
   }
 }
